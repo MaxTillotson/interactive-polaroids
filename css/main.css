@@ -31,10 +31,10 @@ html {
 }
 
 .polaroid:hover {
-transform: rotate(0deg);
-z-index: 5;
-transition: ease-out 200ms;
-box-shadow: 2px 6px 8px rgba(0, 0, 0, 1);
+  transform: rotate(0deg);
+  z-index: 5;
+  transition: ease-out 200ms;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 1);
 }
 
 figure:first-of-type {
@@ -42,4 +42,11 @@ figure:first-of-type {
   left: 20%;
   top: 100px;
   z-index: 2;
+}
+
+figure:last-of-type {
+  transform: rotate(33deg);
+  z-index: 3;
+  left: 40%;
+  top: 100px;
 }
