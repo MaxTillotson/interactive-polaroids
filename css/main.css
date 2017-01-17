@@ -12,6 +12,12 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: absolute;
+  transform: rotate(5deg);
+  z-index: 4;
+  left: 30%;
+  top: 150px;
+  transition: ease-out 120ms;
 }
 
 .polaroid > img {
@@ -22,4 +28,11 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+.polaroid:hover {
+transform: rotate(0deg);
+z-index: 5;
+transition: ease-out 200ms;
+box-shadow: 2px 6px 8px rgba(0, 0, 0, 1);
 }
